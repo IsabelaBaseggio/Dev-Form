@@ -9,6 +9,20 @@
     <link rel="icon" href="../images/icon.PNG" type="image/png">
     <link rel="stylesheet" href="./style/index.css">
     <title>Dev Form</title>
+
+    <style>
+
+        @media screen and (max-width: 900px) {
+            
+            main{
+                background-color: rgb(1, 2, 3, 0.10);
+            }
+
+        }
+
+    </style>
+
+
 </head>
 
 <body>
@@ -29,16 +43,16 @@
                 <form action="">
                     <p>Nome</p>
                     <label>
-                        <input type="text" name="name"></label>
+                        <input type="text" name="name" class="text"></label>
                     <p>Email</p>
                     <label>
-                        <input type="email" name="email"></label>
+                        <input type="email" name="email" class="text"></label>
                     <p>Idade</p>
                     <label>
-                        <input type="number" name="age"></label>
+                        <input type="number" name="age" class="text"></label>
                     <p>Estado</p>
                     <label>
-                        <select name="state">
+                        <select name="state" class="text">
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
                             <option value="AP">Amapa</option>
@@ -70,7 +84,7 @@
                     </label>
                     <p>Como você define sua ocupação no momento?</p>
                     <label for="">
-                        <select name="occupacion">
+                        <select name="occupacion" class="text">
                             <option value="Student">Apenas estudando</option>
                             <option value="WorkerDev">Trabalhando com desenvolvimento web</option>
                             <option value="Worker">Trabalhando em outra área</option>

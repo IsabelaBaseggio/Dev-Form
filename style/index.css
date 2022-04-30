@@ -52,8 +52,12 @@ p{
 
 }
 
+.text, option{
+    width: 40%;
+}
+
 input, select, textarea, .checkbox, button{
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 5px;
     border: none;
     margin-left: 10px;
@@ -69,8 +73,8 @@ input, select{
 
 .checkbox{
     display: grid;
-    max-width: 80%;
     background-color: #3A3B3C;
+    padding: 10px;
 
     grid-template: auto auto auto auto / auto auto;
 
