@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/code.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+.header, .footer{
+    background-color: #32cd32;
+    height: 20px;
+}
+
+
+.header, .footer, main{
+    max-width: 800px;
+    margin: auto;
+}
+
+main{
+    background-color: rgb(1, 2, 3, 0.90);
+    height: calc(100% - 40px);
+    padding-bottom: 40px;
+}
+
+#tittle{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding: 20px;
+    color: #32cd32;
+    text-shadow: 0 0 1em #32cd32;
+}
+
+.form{
+    max-width: 600px;
+    background-color: #1B1B1B;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    color: #32cd32;
+    padding: 10px;
+
+}
+
+input, select, textarea, .checkbox, button{
+    max-width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #3A3B3C;
+    color: #9EFD38;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input, select{
+    padding: 5px;
+}
+
+.checkbox{
+    display: grid;
+    max-width: 80%;
+    background-color: #3A3B3C;
+
+    grid-template: auto auto auto auto / auto auto;
+
+    align-items: flex-end;
+
+}
+
+.cB{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+}
+
+button{
+    display: block;
+    background-color: #32cd32;
+    box-shadow: 0 0 1em #32cd32;
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: #3A3B3C;
+    margin: auto;
+}
