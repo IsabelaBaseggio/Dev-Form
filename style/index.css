@@ -101,4 +101,5 @@ button{
     font-family: 'Press Start 2P', cursive;
     color: #3A3B3C;
     margin: auto;
+    cursor: pointer;
 }
