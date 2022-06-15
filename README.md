@@ -2,7 +2,7 @@
 
 #### Status: Finalizado
 
-![GitHub](https://img.shields.io/github/license/IsabelaBaseggio/Dev-Form)
+[![GitHub](https://img.shields.io/github/license/IsabelaBaseggio/Dev-Form)](https://github.com/IsabelaBaseggio/Dev-Form/blob/html/LICENSE)
 
 
 ## Sobre o projeto
